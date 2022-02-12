@@ -9,6 +9,7 @@ import ReactDOM from "react-dom";
 //import { MultipleCustomHooks } from "./components/examples/MultipleCustomHooks";
 //import { FocusScreen } from "./components/useRef/FocusScreen";
 //import { RealExampleRef } from "./components/useRef/RealExampleRef";
-import { LayoutEffect } from "./components/useLayoutEffect/LayoutEffect";
+//import { LayoutEffect } from "./components/useLayoutEffect/LayoutEffect";
+import { Memorize } from "./components/memos/Memorize";
 
-ReactDOM.render(<LayoutEffect />, document.getElementById("root"));
+ReactDOM.render(<Memorize />, document.getElementById("root"));
