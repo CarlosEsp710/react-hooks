@@ -12,6 +12,7 @@ import ReactDOM from "react-dom";
 //import { LayoutEffect } from "./components/useLayoutEffect/LayoutEffect";
 //import { Memorize } from "./components/memos/Memorize";
 //import { MemoHook } from "./components/memos/MemoHook";
-import { CallbackHook } from "./components/memos/CallbackHook";
+//import { CallbackHook } from "./components/memos/CallbackHook";
+import { Padre } from "./components/homework/Padre";
 
-ReactDOM.render(<CallbackHook />, document.getElementById("root"));
+ReactDOM.render(<Padre />, document.getElementById("root"));
