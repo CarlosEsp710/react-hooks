@@ -5,7 +5,7 @@ export const useCounter = (initialState = 10) => {
 
   const increment = () => setCounter(counter + 1);
 
-  const decrement = () => setCounter(counter);
+  const decrement = () => setCounter(counter - 1);
 
   const reset = () => setCounter(initialState);
 
